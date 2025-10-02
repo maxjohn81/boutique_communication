@@ -5,3 +5,8 @@
     position: fixed;
     width: 100%;
 }
+
+.container{
+    width: 100%;
+    /* background: blue; */
+}
