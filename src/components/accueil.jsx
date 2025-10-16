@@ -3,7 +3,7 @@ import {motion} from 'framer-motion'
 export default function Accueil() {
   return (
     <>
-      <div className="flex justify-center items-center">
+      {/* <div className="flex justify-center items-center">
         <div className="overflow w-auto overflow-hidden  mt-25 max-sm:w-[300px] max-sm:h-auto">
           <motion.img
            initial={{ opacity: 0}}
@@ -16,7 +16,7 @@ export default function Accueil() {
             alt="image_accueil"
           />
         </div>
-      </div>
+      </div> */}
     </>
   );
 }

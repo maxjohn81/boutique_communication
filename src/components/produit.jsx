@@ -2,7 +2,7 @@ import {motion} from 'framer-motion'
 export default function Produit({ ...props }) {
   return (
     <>
-      <motion.div initial={{ opacity: 0, y: 50 }}
+      {/* <motion.div initial={{ opacity: 0, y: 50 }}
           whileInView={{ opacity: 1, y: 0 }}
           exit={{ opacity: 0, y: 50 }}
           transition={{ duration: 0.6, ease: "easeOut" }}
@@ -27,7 +27,7 @@ export default function Produit({ ...props }) {
             </a>
           </button>
         </div>
-      </motion.div>
+      </motion.div> */}
     </>
   );
 }

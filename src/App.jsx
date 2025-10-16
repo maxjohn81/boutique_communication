@@ -7,7 +7,7 @@ import { motion } from "framer-motion";
 function App() {
   return (
     <>
-      <header className="navBar z-10 flex justify-center items-center shadow-lg backdrop-blur-[4px]">
+      {/* <header className="navBar z-10 flex justify-center items-center shadow-lg backdrop-blur-[4px]">
         <div className="flex justify-around  w-full items-center">
           <div>
             <h1 className="font-bold text-2xl">D'Ando Communication</h1>
@@ -85,7 +85,7 @@ function App() {
             smartphone="Huawai"
           />
         </div>
-      </div>
+      </div> */}
     </>
   );
 }
