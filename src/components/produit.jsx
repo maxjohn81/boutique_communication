@@ -2,9 +2,9 @@ import {motion} from 'framer-motion'
 export default function Produit({ ...props }) {
   return (
     <>
-      <motion.div initial={{ opacity: 0, x: -50 }}
-          whileInView={{ opacity: 1, x: 0 }}
-          exit={{ opacity: 0, x: -50 }}
+      <motion.div initial={{ opacity: 0, y: 50 }}
+          whileInView={{ opacity: 1, y: 0 }}
+          exit={{ opacity: 0, y: 50 }}
           transition={{ duration: 0.6, ease: "easeOut" }}
           viewport={{ once: false, amount: 0.3 }} className="mt-5 shadow-xl/30 w-[300px] h-[320px] pt-2 rounded-lg hover:scale-101 duration-100">
         <div className="w-[25px] h-[25px] rounded-full bg-green-500 fixed left-70 z-10 items-center justify-center flex">
