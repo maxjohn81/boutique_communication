@@ -1,4 +1,3 @@
-import accueil_img from "../images/iphone.svg";
 import {motion} from 'framer-motion'
 export default function Accueil() {
   return (

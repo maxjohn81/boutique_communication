@@ -1,7 +1,4 @@
 import "./App.css";
-import Accueil from "./components/accueil";
-import Produit from "./components/produit";
-import smartphone from "./images/smartphone-153650.svg";
 import { motion } from "framer-motion";
 
 function App() {
