@@ -1,9 +1,12 @@
-import "./App.css";
+import Header from "./layout/Header";
 import { motion } from "framer-motion";
+
 
 function App() {
   return (
     <>
+    <Header/>
+
       {/* <header className="navBar z-10 flex justify-center items-center shadow-lg backdrop-blur-[4px]">
         <div className="flex justify-around  w-full items-center">
           <div>
